@@ -1,0 +1,135 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: arial;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+}
+
+main{
+  height: 100%;
+  width: 100%;
+  background-color: #D5FF40;
+  
+}
+
+nav{
+  padding: 60px 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+   justify-content: space-between;
+}
+
+#part-2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+
+nav h2{
+  font-size: 30px;
+  font-weight: 500;
+}
+
+nav a{
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+section{
+  
+  
+}
+
+section .herotext1{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  
+  padding: 30px 95px;
+ 
+}
+
+.herotext1 h1{
+  font-size: 180px;
+  font-weight: 900;
+  
+}
+
+.herotext1 .video{
+  height: 100px;
+  width: 400px;
+  border-radius: 100px;
+  background-image: url(https://plus.unsplash.com/premium_photo-1737014440176-f0e9703b57c6?q=80&w=2832&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  background-position: top;
+  padding: 5px;
+
+}
+.play i{
+
+  height: 30px;
+  width: 30px;
+  color: white;
+  font-size: 30px;
+}
+
+.video .play{
+  height: 100%;
+  width: 90px;
+ 
+  border: 3px solid white;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+section .herotext2{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  
+  padding: 30px 95px;
+ 
+}
+
+.herotext2 h1{
+  font-size: 180px;
+  font-weight: 900;
+  line-height: 60px;
+  
+}
+
+.herotext2 p{
+  width: 500px;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+
+}
+
+.image{
+  height: 800px;
+  width: 1250px;
+  background-image: url(https://images.unsplash.com/photo-1626968361222-291e74711449?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  margin-left: 100px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 200px;
+  margin-top: 50px;
+
+}
+
+#nextpage{
+  background-color: #D5FF40;
+}
